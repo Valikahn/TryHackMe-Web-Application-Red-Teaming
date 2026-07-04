@@ -1,2 +1,229 @@
-# TryHackMe-Web-Application-Red-Teaming
-Personal TryHackMe write-ups, notes and methodologies covering advanced web application exploitation, custom tooling, cryptographic attacks, vulnerability chaining and WAF bypass techniques.
+# TryHackMe - Web Application Red Teaming Writeups ![Banner](./IMAGES/webappredteaming_img.png?raw=true)  
+
+![license](https://img.shields.io/badge/license-CC_BY_4.0-green)
+![Completed](https://img.shields.io/badge/completed-0%25-blue)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/v4l1k4hn)
+![GitHub User's stars](https://img.shields.io/github/stars/valikahn?style=flat&logo=github)
+![Discord](https://img.shields.io/discord/521382216299839518?style=flat&logo=discord&color=purple)
+
+This repository contains my personal [TryHackMe](https://tryhackme.com/) writeups, study notes and walkthroughs from the [TryHackMe Web Application Red Teaming](https://tryhackme.com/path/outline/webappredteaming) learning path.
+
+The purpose of this repository is to document my methodology, commands, observations, mistakes, exploitation chains and lessons learned while working through advanced web application red teaming rooms. These notes are intended for revision, portfolio building, technical reference and continuous improvement.
+
+## About This Repository
+
+Each writeup is based on work completed within an authorised TryHackMe training environment. The rooms and systems covered are intentionally designed for cyber security education, practical exploitation and controlled experimentation.
+
+Where relevant, the writeups may include IP addresses assigned during a lab session. Testing is performed using the TryHackMe AttackBox or a personal Kali Linux virtual machine connected to the TryHackMe network through OpenVPN.
+
+**PLEASE NOTE:** This repository focuses on the Web Application Red Teaming path. The writeups may involve advanced exploitation concepts, including cryptographic weaknesses, custom tooling, vulnerability chaining, web application firewall bypass techniques and attacks against LLM-enabled applications.
+
+The format of each entry will vary according to the room, objective and level of complexity. Some rooms may focus on a single technique, while others may require several weaknesses to be chained together into a full exploitation path.
+
+> [!IMPORTANT]
+> This repository will **NEVER** contain material taken from TryHackMe professional certification examinations or other restricted assessments. It will **NOT** provide flags, passwords, cracked credentials, reusable tokens or confidential material that would remove the learning process.
+>
+> If you are looking for direct answers, room flags or copy-and-paste shortcuts, you will **NOT** find those here. Help and discussion should be kept within the boundaries of responsible learning and TryHackMe's rules.
+
+## What a Writeup May Include
+
+Depending on the room, module and learning objective, a writeup may contain:
+
+- Room and module overview;
+- Learning objectives;
+- Environment and tooling notes;
+- Target and attacker IP details where relevant;
+- Enumeration and reconnaissance steps;
+- Web application mapping;
+- Request and response analysis;
+- Vulnerability identification and validation;
+- Cryptographic weakness analysis;
+- Custom tooling or automation logic;
+- Exploitation chain development;
+- WAF bypass methodology;
+- LLM attack surface analysis;
+- Initial access methodology where applicable;
+- Shell handling or session management where applicable;
+- Commands and selected sanitised output;
+- Mistakes, troubleshooting and alternative approaches;
+- Key findings and lessons learned;
+- Defensive recommendations or remediation notes; and
+- References and supporting documentation.
+
+Sensitive values, credentials, hashes, answers, tokens and flags will be removed or replaced with placeholders such as `<TARGET_IP>`, `<USERNAME>`, `<EMAIL_ADDRESS>`, `<SESSION_VALUE_REDACTED>` or `<REDACTED>`.
+
+Writeups are intended to explain the methodology and decision-making process rather than provide a simple answer list.
+
+## Learning Path
+
+Learning Path: [Web Application Red Teaming](https://tryhackme.com/path/outline/webappredteaming)
+
+This path focuses on taking web application pentesting beyond vulnerability discovery and into practical exploitation. It covers complex vulnerability chains and shows how individual weaknesses can be combined to demonstrate meaningful impact in a controlled red team-style environment.
+
+The path currently includes:
+
+| Section | Focus Area |
+| --- | --- |
+| Cryptographic Failures | Understanding and exploiting weaknesses in cryptographic implementation. |
+| Custom Tooling | Building or adapting tools to automate exploitation workflows. |
+| Chaining Vulnerabilities | Combining multiple issues to achieve a larger objective. |
+| Bypassing WAF | Understanding web application firewall behaviour and bypass techniques. |
+| Attacking LLMs | Exploring prompt injection, insecure output handling, privacy risks and model-related abuse cases. |
+
+The learning path is designed to strengthen practical exploitation methodology, technical reasoning and the ability to show the real impact of discovered vulnerabilities.
+
+## Published Writeups (Work In-Progress)
+
+| Section | Room / Challenge | Difficulty | Status |
+| --- | --- | --- | --- |
+| Custom Tooling | CAPTCHApocalypse | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Cryptographic Failures | Length Extension Attacks | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Cryptographic Failures | Attacking ECB Oracles | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Cryptographic Failures | Padding Oracles | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Cryptographic Failures | Insecure Randomness | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Custom Tooling | Custom Tooling Using Python | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Custom Tooling | Custom Tooling using Burp | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Custom Tooling | Tooling via Browser Automation | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Custom Tooling | CAPTCHApocalypse | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Chaining Vulnerabilities | Chaining Vulnerabilities | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Chaining Vulnerabilities | Extract | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Chaining Vulnerabilities | Voyage | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Chaining Vulnerabilities | Sequence | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Bypassing WAF | WAF: Introduction | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Bypassing WAF | WAF: Exploitation Techniques | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Bypassing WAF | Padelify | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Bypassing WAF | Farewell | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Attacking LLMs | Input Manipulation and Prompt Injection | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Attacking LLMs | LLM Output Handling and Privacy Risks | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Attacking LLMs | Data Integrity and Model Poisoning | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Attacking LLMs | Juicy | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Attacking LLMs | BankGPT | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| Attacking LLMs | HealthGPT | ![TBC](https://img.shields.io/badge/TBC-lightgrey) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+
+### Status Key
+
+| Status | Meaning |
+| --- | --- |
+| ![Planned](https://img.shields.io/badge/Planned-lightgrey) | The room has been selected but documentation has not started. |
+| ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) | The room is currently being completed and documented. |
+| ![Complete](https://img.shields.io/badge/Complete-brightgreen) | The writeup has been published. |
+| ![Archived](https://img.shields.io/badge/Archived-red) | The room or writeup is no longer actively maintained. |
+| ![Host Error](https://img.shields.io/badge/Host_Error-Reported-orange) | A lab or room issue has been encountered and reported. |
+
+## Tools Commonly Used
+
+The tools used will vary by room, objective and target behaviour. The following list is representative rather than exhaustive.
+
+| Reconnaissance and Enumeration | Web and Application Testing | Exploitation and Access | Custom Tooling and Automation |
+| --- | --- | --- | --- |
+| [Nmap](https://nmap.org/) | [Burp Suite](https://www.kali.org/tools/burpsuite/) | [Metasploit Framework](https://www.kali.org/tools/metasploit-framework/) | [Python](https://www.python.org/) |
+| [RustScan](https://github.com/RustScan/RustScan) | [OWASP ZAP](https://www.kali.org/tools/zaproxy/) | [Netcat](https://www.kali.org/tools/netcat/) | [Requests](https://requests.readthedocs.io/) |
+| [Gobuster](https://www.kali.org/tools/gobuster/) | [ffuf](https://www.kali.org/tools/ffuf/) | [Hydra](https://www.kali.org/tools/hydra/) | [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) |
+| [Feroxbuster](https://www.kali.org/tools/feroxbuster/) | [SQLmap](https://www.kali.org/tools/sqlmap/) | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | [Playwright](https://playwright.dev/) |
+| [WhatWeb](https://www.kali.org/tools/whatweb/) | [Postman](https://www.postman.com/) | [GTFOBins](https://gtfobins.github.io/) | [Selenium](https://www.selenium.dev/) |
+| [Nikto](https://www.kali.org/tools/nikto/) | Browser Developer Tools | [CyberChef](https://gchq.github.io/CyberChef/) | Bash scripting |
+
+| Cryptography and Encoding | WAF and Filtering Analysis | LLM Security Testing | Supporting References |
+| --- | --- | --- | --- |
+| [OpenSSL](https://www.openssl.org/) | Burp Suite Repeater | Manual prompt testing | [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) |
+| [Hashcat](https://www.kali.org/tools/hashcat/) | Burp Suite Intruder | Input and output handling review | [OWASP Top 10](https://owasp.org/www-project-top-ten/) |
+| [John the Ripper](https://www.kali.org/tools/john/) | Encoding and case manipulation | Data leakage testing | [OWASP API Security Top 10](https://owasp.org/API-Security/) |
+| [CyberChef](https://gchq.github.io/CyberChef/) | Payload mutation | Indirect prompt injection review | [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) |
+| [hashpump](https://github.com/mheistermann/HashPump-partialhash) | Header and parameter tampering | Model behaviour analysis | [PortSwigger Web Security Academy](https://portswigger.net/web-security) |
+
+## Methodology
+
+My general workflow is:
+
+1. Review the room objectives and identify any prerequisite knowledge.
+2. Prepare the lab environment and record the relevant connection details.
+3. Confirm the target scope before running active testing.
+4. Map the application, endpoints, parameters, authentication flow and observable controls.
+5. Capture baseline requests and responses before making changes.
+6. Identify possible weaknesses and validate them carefully.
+7. Build a repeatable exploitation path rather than relying on one-off behaviour.
+8. Chain vulnerabilities only within the authorised lab scope.
+9. Record commands, observations, failed approaches and important output.
+10. Redact flags, answers, credentials, hashes, tokens and other restricted material.
+11. Explain why each successful technique worked rather than listing commands without context.
+12. Record lessons learned and link the activity to wider cyber security practice.
+13. Add defensive recommendations or remediation notes where appropriate.
+14. Review the finished writeup for accuracy, clarity and compliance with TryHackMe rules.
+
+The emphasis is on repeatable methodology, clear reasoning and controlled exploitation. Finding the bug is useful; proving the impact safely is where the learning lands properly.
+
+## Content and Spoiler Policy
+
+These notes may contain spoilers, command output, vulnerability details and complete attack or investigation paths. Anyone actively completing a room should attempt it independently before reading the associated writeup.
+
+This repository will not intentionally publish:
+
+- TryHackMe flags or answer strings;
+- passwords or cracked credentials;
+- reusable session tokens;
+- private keys or sensitive certificates;
+- certification examination content;
+- copied room instructions or substantial portions of TryHackMe material;
+- exploit material aimed at real-world unauthorised targets; or
+- material that TryHackMe or a room author has asked learners not to share.
+
+Where a value is necessary to explain the methodology, it will be represented using a placeholder such as `<TARGET_IP>`, `<USERNAME>`, `<EMAIL_ADDRESS>`, `<SESSION_VALUE_REDACTED>` or `<REDACTED>`.
+
+If restricted or sensitive information is included accidentally, please report it through the repository's GitHub **Discussions** or **Issues** area so it can be reviewed and removed.
+
+## Ethical Use Disclaimer
+
+These writeups are for educational purposes only and are based on authorised TryHackMe lab environments.
+
+All tools, commands, techniques and methodologies referenced in these writeups were used within controlled training environments where permission was provided by the owner and/or operator of the lab platform. The systems discussed are intentionally vulnerable machines designed for cyber security learning, practice and assessment.
+
+Do not use these techniques, tools or methods against systems, networks, applications or services that you do not own or do not have explicit written permission to test.
+
+Unauthorised access, scanning, exploitation or disruption of systems is illegal and unethical. The tools and methods listed in this repository are examples of approaches used during specific rooms or learning exercises. They are not the only possible solutions, and other tools, techniques or workflows may be used depending on the target environment, room design and individual methodology.
+
+## Accuracy and Maintenance
+
+TryHackMe periodically updates, replaces or retires rooms and learning paths. Links, room sequences and path content may therefore change after a writeup is published.
+
+Each writeup should be treated as a record of the room as it appeared on the date documented. Where a material change is identified, the relevant page may be updated or marked as archived.
+
+If you notice a broken link, outdated instruction, formatting problem, technical error or any other noticeable issue within a writeup, please report it through the repository's **Issues** tab. When raising an issue, include the name of the affected writeup, a brief description of the problem and, where possible, the relevant section or line.
+
+Constructive corrections are welcome and help keep the repository accurate, useful and maintainable.
+
+## Connect With Me
+
+Thanks for checking out my TryHackMe writeups. These notes form part of my ongoing cyber security learning journey, where I document rooms, techniques, tools, mistakes and lessons learned while working through different challenges.
+
+You can view my TryHackMe profile here: [TryHackMe Profile - V4L1K4HN](https://tryhackme.com/p/V4L1K4HN)
+
+I am also active within cyber security learning communities, including Discord, where I discuss labs, tools, methodologies and general security topics with other learners and practitioners.
+
+Feel free to follow my progress, compare approaches or get in touch if you are working through similar rooms. Walkthrough requests are welcome, although publication will depend on my availability and whether sharing the content complies with the platform's rules.
+
+Created by V4L1K4HN as part of my cyber security learning journey through TryHackMe.
+
+## Licence
+
+Unless otherwise stated, the original written content in this repository is licensed under the [Creative Commons Attribution 4.0 International Licence](https://creativecommons.org/licenses/by/4.0/legalcode.en).
+
+Copyright © 2026 V4L1K4HN.
+
+You may share and adapt the licensed material for any purpose, including commercially, provided that:
+
+- appropriate credit is given to V4L1K4HN;
+- a link to the licence is provided; and
+- any changes made to the original material are clearly indicated.
+
+This licence applies only to original material created by the repository author.
+
+TryHackMe content, branding, room materials, third-party software, trademarks, externally sourced material and any other third-party intellectual property remain subject to their respective owners' terms and licences.
+
+See the [LICENSE](https://github.com/Valikahn/TryHackMe-Writeups/blob/main/LICENSE) file for the complete legal terms.
+
+---
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/v4l1k4hn)
+
+**Powered on ☕ made with ❤️ by [V4L1K4HN](https://tryhackme.com/p/V4L1K4HN)**  
+⭐ If this project is useful, consider starring it on GitHub.
