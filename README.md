@@ -1,4 +1,4 @@
-# TryHackMe - Web Application Red Teaming Writeups ![Banner](./IMAGES/webappredteaming_img.png?raw=true)  
+# TryHackMe - Web Application Red Teaming Writeups ![Banner](./IMAGES/webappredteaming_img.png?raw=true)
 
 ![license](https://img.shields.io/badge/license-CC_BY_4.0-green)
 ![Completed](https://img.shields.io/badge/completed-0%25-blue)
