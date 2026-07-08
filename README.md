@@ -88,7 +88,7 @@ The learning path is designed to strengthen practical exploitation methodology, 
 | ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) | The room is currently being completed and documented. |
 | ![Complete](https://img.shields.io/badge/Complete-brightgreen) | The writeup has been published. |
 | ![Archived](https://img.shields.io/badge/Archived-red) | The room or writeup is no longer actively maintained. |
-| ![Host Error](https://img.shields.io/badge/Host_Error-Reported-orange) | A lab or room issue has been encountered and reported. |
+| ![Issue_Reported](https://img.shields.io/badge/Issue-Reported-orange) | A lab or room issue has been encountered and reported. |
 
 ## Tools Commonly Used
 
