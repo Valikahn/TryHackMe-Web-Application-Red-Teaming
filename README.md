@@ -1,6 +1,6 @@
 # Web Application Red Teaming Writeups ![PathwayCompleted](https://img.shields.io/badge/pathway-starting_soon-red?style=for-the-badge)
 ![Banner](./IMAGES/webappredteaming_img.png?raw=true)
-![license](https://img.shields.io/badge/license-CC_BY_4.0-green) ![Writeups](https://img.shields.io/badge/completed_writeup-0/9-blue) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/v4l1k4hn) ![GitHub User's stars](https://img.shields.io/github/stars/valikahn?style=flat&logo=github) ![Discord](https://img.shields.io/discord/521382216299839518?style=flat&logo=discord&color=purple)
+![License](https://img.shields.io/badge/License-CC_BY_4.0-green) ![Writeups](https://img.shields.io/badge/Completed_Writeup-6/15-blue) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/v4l1k4hn) ![GitHub User's stars](https://img.shields.io/github/stars/valikahn?style=flat&logo=github) ![Discord](https://img.shields.io/discord/521382216299839518?style=flat&logo=discord&color=purple) [![TryHackMe_Profile](https://img.shields.io/badge/TryHackMe-Certificates-black)](https://tryhackme.com/p/V4L1K4HN?tab=certificates)
 
 This repository contains my personal [TryHackMe](https://tryhackme.com/) writeups, study notes and walkthroughs from the [TryHackMe Web Application Red Teaming](https://tryhackme.com/path/outline/webappredteaming) learning path.
 
