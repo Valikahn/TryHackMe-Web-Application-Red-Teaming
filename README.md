@@ -147,9 +147,12 @@ This repository will not intentionally publish:
 - exploit material aimed at real-world unauthorised targets; or
 - material that TryHackMe or a room author has asked learners not to share.
 
-Where a value is necessary to explain the methodology, it will be represented using a placeholder such as `<TARGET_IP>`, `<USERNAME>`, `<EMAIL_ADDRESS>`, `<SESSION_VALUE_REDACTED>` or `<REDACTED>`.
+> [!NOTE]
+> Some values in this writeup have been intentionally redacted to protect the integrity of the challenge and prevent unintended spoilers. Placeholders such as `<TARGET_IP>` and `<TUN0_IP>` are used where IP addresses were required to explain the methodology without exposing environment-specific details. Other sensitive or challenge-revealing information has been replaced with `<REDACTED>`. Any flags have also been redacted, either as `THM{...}` for TryHackMe-style flags or as `<REDACTED>` where the flag format differs.
+>
+> These redactions allow the process to be explained clearly while ensuring the final answer, challenge secrets, and key identifying details are not disclosed.
 
-If restricted or sensitive information is included accidentally, please report it through the repository's GitHub **Discussions** or **Issues** area so it can be reviewed and removed.
+If restricted or sensitive information is included accidentally, please report it through the repository's GitHub [Discussions](https://github.com/Valikahn/TryHackMe-Web-Application-Red-Teaming/discussions) or [Issues](https://github.com/Valikahn/TryHackMe-Web-Application-Red-Teaming/issues) area so it can be reviewed and removed.
 
 ## Ethical Use Disclaimer
 
