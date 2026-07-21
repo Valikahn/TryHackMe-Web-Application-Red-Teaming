@@ -1,4 +1,6 @@
-# Extract Challenge ![Banner](./../IMAGES/extract_img.png?raw=true)
+# Extract Challenge
+
+![Banner](./../IMAGES/extract_img.png?raw=true)
 
 **Pathway:** *Web Application Red Teaming* | **Section:** *Chaining Vulnerabilities* | **Challenge:** *[Extract](https://tryhackme.com/room/extract)*
 
