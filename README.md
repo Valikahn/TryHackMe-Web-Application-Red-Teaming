@@ -95,13 +95,18 @@ The learning path is designed to strengthen practical exploitation methodology, 
 The tools used will vary by room, objective and target behaviour. The following list is representative rather than exhaustive.
 
 | Reconnaissance and Enumeration | Web and Application Testing | Exploitation and Access | Custom Tooling and Automation |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | [Nmap](https://nmap.org/) | [Burp Suite](https://www.kali.org/tools/burpsuite/) | [Metasploit Framework](https://www.kali.org/tools/metasploit-framework/) | [Python](https://www.python.org/) |
-| [RustScan](https://github.com/RustScan/RustScan) | [OWASP ZAP](https://www.kali.org/tools/zaproxy/) | [Netcat](https://www.kali.org/tools/netcat/) | [Requests](https://requests.readthedocs.io/) |
+| [RustScan](https://github.com/RustScan/RustScan) | [OWASP ZAP](https://www.kali.org/tools/zaproxy/) | [Netcat](https://www.kali.org/tools/netcat-traditional/) | [Requests](https://requests.readthedocs.io/) |
 | [Gobuster](https://www.kali.org/tools/gobuster/) | [ffuf](https://www.kali.org/tools/ffuf/) | [Hydra](https://www.kali.org/tools/hydra/) | [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) |
 | [Feroxbuster](https://www.kali.org/tools/feroxbuster/) | [SQLmap](https://www.kali.org/tools/sqlmap/) | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | [Playwright](https://playwright.dev/) |
 | [WhatWeb](https://www.kali.org/tools/whatweb/) | [Postman](https://www.postman.com/) | [GTFOBins](https://gtfobins.github.io/) | [Selenium](https://www.selenium.dev/) |
 | [Nikto](https://www.kali.org/tools/nikto/) | Browser Developer Tools | [CyberChef](https://gchq.github.io/CyberChef/) | Bash scripting |
+|  | [cURL](https://curl.se/) |  | [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) |
+|  |  |  | [Pillow](https://python-pillow.org/) |
+|  |  |  | [ChromeDriver](https://developer.chrome.com/docs/chromedriver/) |
+|  |  |  | [Chromium](https://www.chromium.org/) |
+|  |  |  | [pytesseract](https://github.com/madmaze/pytesseract) |
 
 | Cryptography and Encoding | WAF and Filtering Analysis | LLM Security Testing | Supporting References |
 | --- | --- | --- | --- |
