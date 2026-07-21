@@ -70,7 +70,7 @@ The learning path is designed to strengthen practical exploitation methodology, 
 
 | No. | Section | Challenge | Difficulty | Status |
 | --- | --- | --- | --- | --- |
-| 1 | Custom Tooling | [CAPTCHApocalypse](https://tryhackme.com/room/captchapocalypse) | ![Medium](https://img.shields.io/badge/Medium-orange) | ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) |
+| 1 | Custom Tooling | [CAPTCHApocalypse](https://tryhackme.com/room/captchapocalypse) | ![Medium](https://img.shields.io/badge/Medium-orange) | [![Complete](https://img.shields.io/badge/Complete-brightgreen)](./WRITEUPS/captchapocalypse_challenge.md) |
 | 2 | Chaining Vulnerabilities | [Extract](https://tryhackme.com/room/extract) | ![Hard](https://img.shields.io/badge/Hard-red) | ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) |
 | 3 | Chaining Vulnerabilities | [Voyage](https://tryhackme.com/room/voyage) | ![Medium](https://img.shields.io/badge/Medium-orange) | ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) |
 | 4 | Chaining Vulnerabilities | [Sequence](https://tryhackme.com/room/sequence) | ![Medium](https://img.shields.io/badge/Medium-orange) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
