@@ -125,8 +125,6 @@ The principal tools and utilities used during the challenge were:
 
 Click [HERE](https://github.com/Valikahn/TryHackMe-Web-Application-Red-Teaming#tools-commonly-used) to return to the repository README. The `Tools Commonly Used` section contains links to tools used throughout the pathway.
 
-The `Tools Commonly Used` section contains links to tools used throughout the pathway.
-
 ## Initial Enumeration
 
 ### Port and Service Discovery
