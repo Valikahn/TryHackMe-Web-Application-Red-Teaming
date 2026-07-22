@@ -62,13 +62,13 @@ Local hostname: review.thm
 The target was added to the Kali VM's local hosts file:
 
 ```bash
-echo "<TARGET_IP> <REDACTED>" | sudo tee -a /etc/hosts
+echo "<TARGET_IP> review.thm" | sudo tee -a /etc/hosts
 ```
 
 The mapping was confirmed with:
 
 ```bash
-getent hosts <REDACTED>
+getent hosts review.thm
 ```
 
 VPN routing and the tunnel address were also verified:
@@ -101,7 +101,7 @@ cat /etc/hosts
 An old entry can be removed with:
 
 ```bash
-sudo sed -i '/<REDACTED>/d' /etc/hosts
+sudo sed -i '/review\.thm/d' /etc/hosts
 ```
 
 The correct mapping can then be added again using the currently allocated `<TARGET_IP>`.
