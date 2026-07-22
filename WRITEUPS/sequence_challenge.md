@@ -6,9 +6,9 @@
 
 > [!IMPORTANT]
 >
-> **Working write-up notice:** This was a working and verified write-up at the time of writing on **22 July 2026**.
+> **Working writeup notice:** This was a working and verified writeup at the time of writing on **22 July 2026**.
 >
-> **Spoiler warning:** This write-up documents the exploitation chain, but credentials, exact challenge-specific values, session identifiers, tokens, payload details and flag codes are not shown.
+> **Spoiler warning:** This writeup documents the exploitation chain, but credentials, exact challenge-specific values, session identifiers, tokens, payload details and flag codes are not shown.
 >
 > **Please note:** The IP addresses used during the lab were dynamically allocated by TryHackMe. The attack was performed from my own Kali Linux VM using OpenVPN to connect to the TryHackMe VPN.
 >
@@ -19,11 +19,11 @@
 > - `<REDACTED>` represents credentials, internal values, session cookies, predictable tokens, payload components, filenames or other challenge giveaways.
 > - `THM{....}` represents a redacted TryHackMe flag.
 >
-> **License:** Unless otherwise stated, all write-ups and documentation in this repository are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Any original scripts or code snippets are provided under the [MIT Licence](https://opensource.org/license/mit/).
+> **License:** Unless otherwise stated, all writeups and documentation in this repository are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Any original scripts or code snippets are provided under the [MIT Licence](https://opensource.org/license/mit/).
 
 ## About TryHackMe
 
-This write-up was made possible by the hard work of the TryHackMe team and the wider cyber security community, who continue to create practical and engaging learning environments for aspiring security professionals.
+This writeup was made possible by the hard work of the TryHackMe team and the wider cyber security community, who continue to create practical and engaging learning environments for aspiring security professionals.
 
 [TryHackMe](https://tryhackme.com/) is an online cyber security training platform that provides hands-on labs covering penetration testing, networking, web application security, privilege escalation and defensive security. Its rooms allow learners to develop practical technical skills within controlled and authorised environments.
 
@@ -250,7 +250,7 @@ When the moderator bot reviewed the stored feedback, its browser requested the K
 GET /?<REDACTED>=PHPSESSID=<REDACTED>
 ```
 
-The session identifier is not shown in this public write-up.
+The session identifier is not shown in this public writeup.
 
 ### Moderator Session Replay
 
@@ -638,7 +638,7 @@ Sequence demonstrated several important penetration-testing and defensive-securi
 - Docker API access should be treated as a critical security boundary.
 - Helper containers can be used to mount and inspect the host filesystem when the daemon is exposed.
 - Validate every stage of an attack chain before moving on.
-- Public write-ups should document the method without publishing live credentials, exact tokens, session identifiers or flags.
+- Public writeups should document the method without publishing live credentials, exact tokens, session identifiers or flags.
 
 The most important lesson was that none of the individual weaknesses needed to provide complete compromise by itself. The room was solved by recognising how each issue created the conditions required for the next one.
 
