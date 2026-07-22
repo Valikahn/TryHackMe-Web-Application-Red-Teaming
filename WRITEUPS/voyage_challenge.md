@@ -6,9 +6,9 @@
 
 > [!IMPORTANT]
 >
-> **Working write-up notice:** This was a working and verified write-up at the time of writing on **22 July 2026**.
+> **Working writeup notice:** This was a working and verified writeup at the time of writing on **22 July 2026**.
 >
-> **Spoiler warning:** This write-up documents the exploitation chain, although credentials, exact challenge-specific values, internal addressing, exploit payloads and flag codes are not shown.
+> **Spoiler warning:** This writeup documents the exploitation chain, although credentials, exact challenge-specific values, internal addressing, exploit payloads and flag codes are not shown.
 >
 > **Please note:** The IP addresses used during the lab were dynamically allocated by TryHackMe. The attack was performed from my own Kali Linux VM using OpenVPN to connect to the TryHackMe VPN.
 >
@@ -19,11 +19,11 @@
 > - `<REDACTED>` represents credentials, internal addresses, container identifiers, sensitive file contents, exact exploit values or other challenge giveaways.
 > - `THM{....}` represents a redacted TryHackMe flag.
 >
-> **License:** Unless otherwise stated, all write-ups and documentation in this repository are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Any original scripts or code snippets are provided under the [MIT Licence](https://opensource.org/license/mit/).
+> **License:** Unless otherwise stated, all writeups and documentation in this repository are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Any original scripts or code snippets are provided under the [MIT Licence](https://opensource.org/license/mit/).
 
 ## About TryHackMe
 
-This write-up was made possible by the hard work of the TryHackMe team and the wider cyber security community, who continue to create practical and engaging learning environments for aspiring security professionals.
+This writeup was made possible by the hard work of the TryHackMe team and the wider cyber security community, who continue to create practical and engaging learning environments for aspiring security professionals.
 
 [TryHackMe](https://tryhackme.com/) is an online cyber security training platform that provides hands-on labs covering penetration testing, networking, web application security, privilege escalation, red teaming and defensive security. Its rooms allow learners to develop practical technical skills within controlled and authorised environments.
 
@@ -576,7 +576,7 @@ Full TCP enumeration identified SSH on port `22`, HTTP on port `80` and a second
 The web service was identified as Joomla `4.2.7`. Standard Joomla administration and API paths were exposed.
 
 ### 4. Joomla Information Disclosure
-An unauthenticated Joomla API weakness disclosed configuration values, including reusable credentials. Exact values are omitted from this public write-up.
+An unauthenticated Joomla API weakness disclosed configuration values, including reusable credentials. Exact values are omitted from this public writeup.
 
 ### 5. Credential Reuse
 The disclosed credentials failed against port `22` but succeeded against the SSH service on port `2222`.
@@ -668,7 +668,7 @@ Voyage demonstrated several important penetration-testing, red teaming and defen
 - `CAP_SYS_MODULE` inside a container represents an extremely dangerous path to host compromise.
 - Containers share the host kernel, so kernel-level privileges can collapse the isolation boundary.
 - A successful escalation should be validated by checking the hostname, process context and filesystem rather than trusting the shell prompt.
-- Public write-ups should explain the reasoning and attack chain without publishing credentials, exact flags or unnecessary challenge giveaways.
+- Public writeups should explain the reasoning and attack chain without publishing credentials, exact flags or unnecessary challenge giveaways.
 
 The most important lesson was the distinction between **container root** and **host root**. The challenge deliberately provided several moments where the prompt displayed `root`, but only careful environmental validation showed whether the current shell had reached the final security boundary.
 
@@ -753,7 +753,7 @@ The most important lesson was the distinction between **container root** and **h
 
 ## Disclaimer
 
-This write-up is intended solely for education, training and documentation of an authorised TryHackMe lab.
+This writeup is intended solely for education, training and documentation of an authorised TryHackMe lab.
 
 All tools, commands, payloads and post-exploitation techniques described here were used within a controlled environment provided by TryHackMe. Permission to interact with the target was granted by the platform owner and operator as part of the room.
 
