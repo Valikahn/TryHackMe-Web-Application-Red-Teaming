@@ -132,6 +132,8 @@ The principal tools and utilities used during the challenge were:
 - GCC, Make and installed Linux kernel headers for compiling a loadable kernel module.
 - `insmod` for loading the module through `CAP_SYS_MODULE`.
 
+Click [HERE](https://github.com/Valikahn/TryHackMe-Web-Application-Red-Teaming#tools-commonly-used) to return to the repository README.
+
 ## Initial Enumeration
 
 ### Port and Service Discovery
