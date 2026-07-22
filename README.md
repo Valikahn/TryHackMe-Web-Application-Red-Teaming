@@ -92,16 +92,16 @@ The learning path is designed to strengthen practical exploitation methodology, 
 
 ## Tools Commonly Used
 
-The tools used will vary by room, objective and target behaviour. The following list is representative rather than exhaustive.
+The tools used will vary by room, objective, target behaviour and attack stage. The following list is representative rather than exhaustive and includes web application testing, internal pivoting, container analysis and host-level exploitation.
 
 | Reconnaissance and Enumeration | Web and Application Testing | Exploitation and Access | Custom Tooling and Automation |
 |---|---|---|---|
 | [Nmap](https://nmap.org/) | [Burp Suite](https://www.kali.org/tools/burpsuite/) | [Metasploit Framework](https://www.kali.org/tools/metasploit-framework/) | [Python](https://www.python.org/) |
 | [RustScan](https://github.com/RustScan/RustScan) | [OWASP ZAP](https://www.kali.org/tools/zaproxy/) | [Netcat](https://www.kali.org/tools/netcat-traditional/) | [Requests](https://requests.readthedocs.io/) |
 | [Gobuster](https://www.kali.org/tools/gobuster/) | [ffuf](https://www.kali.org/tools/ffuf/) | [Hydra](https://www.kali.org/tools/hydra/) | [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) |
-| [Feroxbuster](https://www.kali.org/tools/feroxbuster/) | [SQLmap](https://www.kali.org/tools/sqlmap/) | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | [Playwright](https://playwright.dev/) |
-| [WhatWeb](https://www.kali.org/tools/whatweb/) | [Postman](https://www.postman.com/) | [GTFOBins](https://gtfobins.github.io/) | [Selenium](https://www.selenium.dev/) |
-| [Nikto](https://www.kali.org/tools/nikto/) | Browser Developer Tools | [CyberChef](https://gchq.github.io/CyberChef/) | Bash scripting |
+| [Feroxbuster](https://www.kali.org/tools/feroxbuster/) | [SQLmap](https://www.kali.org/tools/sqlmap/) | [NetExec](https://www.netexec.wiki/) | [Playwright](https://playwright.dev/) |
+| [WhatWeb](https://www.kali.org/tools/whatweb/) | [Postman](https://www.postman.com/) | [OpenSSH](https://www.openssh.com/) | [Selenium](https://www.selenium.dev/) |
+| [Nikto](https://www.kali.org/tools/nikto/) | Browser Developer Tools | [socat](https://www.kali.org/tools/socat/) | Bash scripting |
 |  | [cURL](https://curl.se/) |  | [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) |
 |  |  |  | [Pillow](https://python-pillow.org/) |
 |  |  |  | [ChromeDriver](https://developer.chrome.com/docs/chromedriver/) |
@@ -115,6 +115,17 @@ The tools used will vary by room, objective and target behaviour. The following 
 | [John the Ripper](https://www.kali.org/tools/john/) | Encoding and case manipulation | Data leakage testing | [OWASP API Security Top 10](https://owasp.org/API-Security/) |
 | [CyberChef](https://gchq.github.io/CyberChef/) | Payload mutation | Indirect prompt injection review | [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) |
 | [hashpump](https://github.com/mheistermann/HashPump-partialhash) | Header and parameter tampering | Model behaviour analysis | [PortSwigger Web Security Academy](https://portswigger.net/web-security) |
+|  |  |  | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) |
+|  |  |  | [GTFOBins](https://gtfobins.github.io/) |
+
+| CMS and Service Testing | Pivoting and Tunnelling | Container and Linux Analysis | Build and Kernel Tooling |
+| --- | --- | --- | --- |
+| [JoomScan](https://github.com/OWASP/joomscan) | [OpenSSH](https://www.openssh.com/) | `capsh` | [GCC](https://gcc.gnu.org/) |
+| Joomla API testing | SSH local port forwarding | Linux capabilities | [GNU Make](https://www.gnu.org/software/make/) |
+| [NetExec](https://www.netexec.wiki/) | [Netcat](https://www.kali.org/tools/netcat-traditional/) | Docker network enumeration | Linux kernel headers |
+| [SearchSploit](https://www.kali.org/tools/exploitdb/) | [socat](https://www.kali.org/tools/socat/) | `find` | `insmod` |
+| Credential reuse testing | Internal service discovery | `uname` | Loadable kernel modules |
+| Browser Developer Tools | [cURL](https://curl.se/) | Container boundary validation | `call_usermodehelper()` |
 
 ## Methodology
 
