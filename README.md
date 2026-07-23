@@ -76,7 +76,7 @@ The learning path is designed to strengthen practical exploitation methodology, 
 | 4 | Chaining Vulnerabilities | [Sequence](https://tryhackme.com/room/sequence) | ![Medium](https://img.shields.io/badge/Medium-orange) | [![Complete](https://img.shields.io/badge/Complete-brightgreen)](./WRITEUPS/sequence_challenge.md) |
 | 5 | Bypassing WAF | [Padelify](https://tryhackme.com/room/padelify) | ![Medium](https://img.shields.io/badge/Medium-orange) | [![Complete](https://img.shields.io/badge/Complete-brightgreen)](./WRITEUPS/padelify_challenge.md) |
 | 6 | Bypassing WAF | [Farewell](https://tryhackme.com/room/farewell) | ![Medium](https://img.shields.io/badge/Medium-orange) | [![Complete](https://img.shields.io/badge/Complete-brightgreen)](./WRITEUPS/farewell_challenge.md) |
-| 7 | Attacking LLMs | [Juicy](https://tryhackme.com/room/juicy) | ![Medium](https://img.shields.io/badge/Medium-orange) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+| 7 | Attacking LLMs | [Juicy](https://tryhackme.com/room/juicy) | ![Medium](https://img.shields.io/badge/Medium-orange) | ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) |
 | 8 | Attacking LLMs | [BankGPT](https://tryhackme.com/room/bankgpt) | ![Easy](https://img.shields.io/badge/Easy-brightgreen) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
 | 9 | Attacking LLMs | [HealthGPT](https://tryhackme.com/room/healthgpt) | ![Easy](https://img.shields.io/badge/Easy-brightgreen) | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
 
