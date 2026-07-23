@@ -170,6 +170,14 @@ This repository will not intentionally publish:
 
 If restricted or sensitive information is included accidentally, please report it through the repository's GitHub [Discussions](https://github.com/Valikahn/TryHackMe-Web-Application-Red-Teaming/discussions) or [Issues](https://github.com/Valikahn/TryHackMe-Web-Application-Red-Teaming/issues) area so it can be reviewed and removed.
 
+## Issue and Discussion Moderation
+
+This repository does not accept requests for real-world exploitation, webshell deployment, RCE targeting, DNS hijacking, black-hat SEO operations, or recruitment for unauthorised attack activity.
+
+Issues or discussions requesting or advertising these activities will be closed and/or reported.
+
+不接受任何与未授权攻击、webshell、RCE、DNS 劫持或黑帽 SEO 相关的请求与招募内容。
+
 ## Ethical Use Disclaimer
 
 These writeups are for educational purposes only and are based on authorised TryHackMe lab environments.
