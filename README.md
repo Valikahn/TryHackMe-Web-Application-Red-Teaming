@@ -186,7 +186,7 @@ TryHackMe periodically updates, replaces or retires rooms and learning paths. Li
 
 Each writeup should be treated as a record of the room as it appeared on the date documented. Where a material change is identified, the relevant page may be updated or marked as archived.
 
-If you notice a broken link, outdated instruction, formatting problem, technical error or any other noticeable issue within a writeup, please report it through the repository's **Issues** tab. When raising an issue, include the name of the affected writeup, a brief description of the problem and, where possible, the relevant section or line.
+If you notice a broken link, outdated instruction, formatting problem, technical error or any other noticeable issue within a writeup, please report it through the GitHub repository's **[Discussions](https://github.com/Valikahn/TryHackMe-Web-Application-Red-Teaming/discussions)** tab. When providing feedback, include the name of the affected writeup, a brief description of the problem and, where possible, the relevant section or line.
 
 Constructive corrections are welcome and help keep the repository accurate, useful and maintainable.
 
