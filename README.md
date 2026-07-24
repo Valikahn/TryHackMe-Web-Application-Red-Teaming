@@ -190,6 +190,29 @@ If you notice a broken link, outdated instruction, formatting problem, technical
 
 Constructive corrections are welcome and help keep the repository accurate, useful and maintainable.
 
+## Moderation Policy for Abusive Exploit Requests
+
+This repository is intended solely for authorised cybersecurity education, controlled laboratory exercises, Capture the Flag challenges, and legitimate defensive research.
+
+Requests for assistance that appear to involve unauthorised access, real-world exploitation, credential theft, malware deployment, data theft, service disruption, evasion of security controls, or harm against individuals, organisations, systems, or networks will not be supported.
+
+This includes, but is not limited to:
+
+- Requests to attack systems without clear authorisation
+- Attempts to obtain or misuse passwords, tokens, session cookies, API keys, or other credentials
+- Requests involving ransomware, destructive malware, persistence, botnets, phishing, or data exfiltration
+- Instructions intended to conceal malicious activity or evade detection
+- Threats, harassment, extortion, doxxing, or targeted abuse
+- Attempts to adapt educational material for use against real-world targets
+
+Abusive or suspicious requests may be documented, preserved, blocked, and reported to the relevant platform, service provider, repository host, organisation, or lawful authority where appropriate.
+
+By accessing or interacting with this repository, you agree to use its content only within environments that you own or are explicitly authorised to test.
+
+Educational context does not excuse unlawful or harmful activity.
+
+***No authorisation means no testing.***
+
 ## Connect With Me
 
 Thanks for checking out my TryHackMe writeups. These notes form part of my ongoing cybersecurity learning journey, where I document rooms, techniques, tools, mistakes and lessons learned while working through different challenges.
