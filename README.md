@@ -180,16 +180,6 @@ Do not use these techniques, tools, or methods against systems, networks, applic
 
 The tools and methods listed in this repository are examples of approaches used during specific rooms or learning exercises. They are not the only possible solutions, and other tools, techniques, or workflows may be used depending on the target environment, room design, and individual methodology.
 
-## Accuracy and Maintenance
-
-TryHackMe periodically updates, replaces or retires rooms and learning paths. Links, room sequences and path content may therefore change after a writeup is published.
-
-Each writeup should be treated as a record of the room as it appeared on the date documented. Where a material change is identified, the relevant page may be updated or marked as archived.
-
-If you notice a broken link, outdated instruction, formatting problem, technical error or any other noticeable issue within a writeup, please report it through the GitHub repository's **[Discussions](https://github.com/Valikahn/TryHackMe-Web-Application-Red-Teaming/discussions)** tab. When providing feedback, include the name of the affected writeup, a brief description of the problem and, where possible, the relevant section or line.
-
-Constructive corrections are welcome and help keep the repository accurate, useful and maintainable.
-
 ## Moderation Policy for Abusive Exploit Requests
 
 This repository is intended solely for authorised cybersecurity education, controlled laboratory exercises, Capture the Flag challenges, and legitimate defensive research.
@@ -212,6 +202,16 @@ By accessing or interacting with this repository, you agree to use its content o
 Educational context does not excuse unlawful or harmful activity.
 
 ***No authorisation means no testing.***
+
+## Accuracy and Maintenance
+
+TryHackMe periodically updates, replaces or retires rooms and learning paths. Links, room sequences and path content may therefore change after a writeup is published.
+
+Each writeup should be treated as a record of the room as it appeared on the date documented. Where a material change is identified, the relevant page may be updated or marked as archived.
+
+If you notice a broken link, outdated instruction, formatting problem, technical error or any other noticeable issue within a writeup, please report it through the GitHub repository's **[Discussions](https://github.com/Valikahn/TryHackMe-Web-Application-Red-Teaming/discussions)** tab. When providing feedback, include the name of the affected writeup, a brief description of the problem and, where possible, the relevant section or line.
+
+Constructive corrections are welcome and help keep the repository accurate, useful and maintainable.
 
 ## Connect With Me
 
